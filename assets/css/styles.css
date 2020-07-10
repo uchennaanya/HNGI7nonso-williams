@@ -154,6 +154,8 @@ nav a {
 }
 
 .portfolio .port-space {
+  width: 100%;
+  margin: 10%;
 
 }
 
@@ -293,37 +295,6 @@ footer p {
   background-color: #fff;
 
 }
-.services p {
-  float: right; top: 40px;
-  position: relative;
-  font-size: 11px;
-  text-align: left;
-}
-
-.services img {
-  height: 25px;
-}
-
-.services div {
-  border-bottom: 1px solid #000;
-  width: 50%;
-}
-
-.slogan {
-  background: #D5A43B;
-  width: 100%;
-  padding: 10px 0;
-  text-align: center;
-}
-
-.vector-backgrd {
-  position: absolute;
-  left: 82.64%;
-  right: 16.53%;
-  top: 73.15%;
-  bottom: 26.31%;
-}
-
 /* Carousel */
 .carousel-nav-icon {
    height: 48px;
