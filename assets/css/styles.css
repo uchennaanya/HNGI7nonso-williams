@@ -1,0 +1,331 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  background-color: #EEEEEE;
+}
+
+.toggler {
+  width: 50px;
+  height: 50px;
+}
+
+/* site title */
+.title {
+  margin-top: 200px;
+  text-align: center;
+  font-family: Clicker Script;
+  color: #664E00;
+}
+.desc {
+  font-family: 'Nunito Sans', sans-serif;;
+  line-height: 50px;
+  text-align: center;
+  position: relative;
+  top: -40px;
+  text-transform: uppercase;
+  color: #191400;
+}
+.social {
+  text-align: center;
+  position: relative;
+  top: -40px;
+}
+.social span {
+  border-radius: 50%;
+  height: 5s0px;
+  width: 50px;
+  margin-left: 3%;
+  padding: .8rem .5rem;
+  border: 2px solid #ADB901;
+}
+.bg-light {
+  background-color: #EFEFEF !important;
+  z-index: 999;
+}
+
+.logo {
+  font-family: 'Clicker Script', cursive;
+  font-size: 50px;
+  color: #E6B001;
+}
+
+nav .active {
+  border-bottom-color: 2px solid #FCC139 !important;
+}
+nav li {
+  margin-left: 3%;
+}
+
+nav a {
+  margin: 0 10px;
+}
+.padding-top {
+  margin-top: 15px;
+}
+.hero-img-div {
+    width: 100%;
+    height: 100%;
+    margin-top: -85px;
+    z-index: ,1;
+}
+.circle {
+  height: 350px;
+  width: 350px;
+  background: rgba(173, 185, 1, 0.1);
+  border: 9px solid rgba(255, 197, 1, 0.2);
+  border-radius: 50%;
+  position: absolute;
+  right: 40%;
+  top: 420px;
+  z-index: 999;
+}
+.center {
+  text-align: center;
+  color: #E6B001;
+  font-size: 34px;
+  position: relative;
+  top: -40px;
+  word-spacing: .5rem;
+  line-height: normal;
+}
+.blog-post button {
+  background: #ADB901 !important;
+  color: #FFFFFF;
+  border: none !important;
+  padding: 5px 20px !important;
+  page-break-after: 0 30px !important;
+  border-radius: 0 !important;
+}
+.about {
+  background: linear-gradient(34.34deg, #A7B2C3 19.51%, #CCD5DF 31.73%, #D5DEE6 50.37%, #D5DEE6 64.83%);
+}
+.about img {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+
+.about a::before {
+  content: "______";
+  top: -8px;
+  position: relative;
+  font-weight: bolder;
+  color: #FECC99;
+}
+
+.about p {
+  padding: 30px 0 10px 0;
+  font-family: Airbnb Cereal App;
+  color: #FECC99;
+}
+.abt-padding {
+  padding-top: 20px !important;
+  color: #664E00 !important;
+}
+.about h4 {
+  font-family: Clicker Script;
+  color: #CC9D01;
+  padding-top: 200px;
+}
+/* PORTFOLIO */
+
+.portfolio {
+  padding: 50px auto;
+  background: #fff;
+}
+
+.portfolio h4 {
+  font-family: Clicker Script;
+  text-align: center;
+  padding-top: 50px;
+  display: block;
+}
+.portfolio span {
+  color: #FCC139;
+  top: -30px;
+  position: relative;
+  font-weight: bolder;
+  /* line-height: -10; */
+  font-size: 2em;
+  text-align: center;
+}
+
+.portfolio .port-space {
+  margin: 0 30%;
+}
+.portfolio .port-space-right {
+  margin: 0  0 0 50%;
+}
+.portfolio .port-space-left {
+  margin: 0 20%;
+}
+.blog-post {
+  background: #fff;
+  padding: 100px 0;
+}
+.blog-post h2 {
+  text-align: center;
+  font-family: Clicker Script;
+  display: block;
+}
+.blog-post span {
+  color: #FCC139;
+  top: -30px;
+  position: relative;
+  font-weight: bolder;
+  /* line-height: -10; */
+  font-size: 2em;
+  text-align: center;
+}
+.blog {
+  background: rgba(0, 0, 0, 0.5);
+  height: 220px;
+  color: #ffff;
+  margin: 10px;
+  top: 200px;
+}
+.contact {
+  padding: 130px 0;
+  background-color: #fff;
+}
+.contact h3 {
+  font-family: Clicker Script;
+  color: #000;
+}
+.contact span {
+  color: #FCC139;
+  top: -70px;
+  position: relative;
+  font-weight: bolder;
+  /* line-height: -10; */
+  font-size: 2em;
+  text-align: center;
+}
+.contact img {
+  width: 100%
+}
+.contact input, .contact texterea {
+  padding: 20px;
+  font-family: Nunito Sans;
+}
+
+footer {
+  width: 100%;
+  padding: 15px 0 0 0;
+  background: #BBC443;
+  bottom: 0;
+  margin: 0;
+}
+footer p {
+  font-family: Clicker Script;
+  color: #FFFFFF;
+  font-size: 27px;
+}
+.footer-icon {
+  float: right;
+  border-radius: 50%;
+  margin-left: 20px;
+  padding: 0 8px;
+  border: 2px solid #fff;
+}
+
+.testimonial-img {
+  width: 85px;
+  height: 90px;
+  border-radius: 50%;
+}
+
+.feature {
+  margin: 50px auto;
+}
+.recent-project-title{
+  padding: 40px 0 0 0;
+  color: #fff;
+}
+.recent-project-paddings {
+  padding-bottom: 40px;
+}
+.recent-project-filler {
+    padding: 40px 0 0 0;
+    background-color: #F6F6F6;
+}
+.recent-project-paddings img {
+  width: 100%;
+  margin: 5px auto;
+}
+.testimonial {
+  background: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .9)), url('../images/rectangle57.png');
+}
+.cards {
+  border: none !important;
+}
+/* background: rgba(32, 46, 49, 0.8); */
+.parallax {
+	background: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .9)), url('../images/rectangle56.png');
+}
+.cards-body {
+  padding: 15px 0;
+  background-color: inherit !important;
+}
+.cards-body-news {
+  padding: 15px 0;
+  background: #F6F6F6;
+}
+#blog {
+  padding-top: 80px;
+}
+
+.blog-div {
+  background: #F6F6F6;
+  padding: 0 1.5rem 0 1.5rem;
+}
+.blog-div h2 {
+  color: #000;
+}
+.after::after {
+  content: '______';
+  color: #FCC139;
+  top: -40px;
+  position: relative;
+  font-weight: bolder;
+  line-height: -10;
+  font-size: 2em;
+}
+
+.services {
+  background-color: #fff;
+
+}
+.services p {
+  float: right; top: 40px;
+  position: relative;
+  font-size: 11px;
+  text-align: left;
+}
+
+.services img {
+  height: 25px;
+}
+
+.services div {
+  border-bottom: 1px solid #000;
+  width: 50%;
+}
+
+.slogan {
+  background: #D5A43B;
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.vector-backgrd {
+  position: absolute;
+  left: 82.64%;
+  right: 16.53%;
+  top: 73.15%;
+  bottom: 26.31%;
+}
