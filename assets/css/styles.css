@@ -154,14 +154,9 @@ nav a {
 }
 
 .portfolio .port-space {
-  margin: 0 30%;
+
 }
-.portfolio .port-space-right {
-  margin: 0  0 0 50%;
-}
-.portfolio .port-space-left {
-  margin: 0 20%;
-}
+
 .blog-post {
   background: #fff;
   padding: 100px 0;
@@ -225,7 +220,6 @@ footer p {
   font-size: 27px;
 }
 .footer-icon {
-  float: right;
   border-radius: 50%;
   margin-left: 20px;
   padding: 0 8px;
