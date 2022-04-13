@@ -31,25 +31,19 @@ body {
   position: relative;
   top: -40px;
   text-align: center;
-  /*
-  font-family: 'Nunito Sans', sans-serif;;
-  line-height: 50px;
-
-
-  text-transform: uppercase;
-  color: #191400; */
 }
 .social {
-  text-align: center;
-  position: relative;
-  top: -40px;
+  display: flex;
+  justify-content: center;
 }
 .social span {
   border-radius: 50%;
-  height: 5s0px;
-  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
   margin-left: 3%;
-  padding: .8rem .5rem;
+  padding: 0.5rem;
   border: 2px solid #ADB901;
 }
 .bg-light {
@@ -242,7 +236,9 @@ footer p {
 }
 .footer-icon {
   border-radius: 50%;
-  padding: 0 8px;
+  display: flex;
+  width: fit-content;
+  padding: 0.5rem;
   border: 2px solid #fff;
 }
 
