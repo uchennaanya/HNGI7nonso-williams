@@ -75,10 +75,10 @@ nav a {
   margin-top: 15px;
 }
 .hero-img-div {
-    width: 100%;
-    height: 100%;
-    margin-top: -85px;
-    z-index: ,1;
+  background: url('/assets/images/logo.png') no-repeat 0.0 ;
+    background-size: contain;
+    height: 50vh;
+    z-index: 1;
 }
 .circle {
   height: 350px;
@@ -186,13 +186,11 @@ nav a {
   top: -30px;
   position: relative;
   font-weight: bolder;
-  /* line-height: -10; */
   font-size: 2em;
   text-align: center;
 }
 .blog {
   background: rgba(0, 0, 0, 0.5);
-  height: 220px;
   color: #ffff;
   margin: 10px;
   top: 200px;
@@ -210,16 +208,28 @@ nav a {
   top: -70px;
   position: relative;
   font-weight: bolder;
-  /* line-height: -10; */
   font-size: 2em;
   text-align: center;
 }
 .contact img {
   width: 100%
 }
-.contact input, .contact texterea {
+
+.contact .bg_img {
+  background: url('/assets/images/contact-image-1.png') no-repeat right center,
+  url('/assets/images/contact-image-2.png') no-repeat left center;
+  background-size: contain contain;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  background-blend-mode: hue;
+}
+.contact input, .contact textarea, form {
   padding: 20px;
   font-family: Nunito Sans;
+  width: 100%;
+  margin: auto;
+  background: transparent;
 }
 
 footer {
@@ -272,9 +282,10 @@ footer p {
 .cards {
   border: none !important;
 }
-/* background: rgba(32, 46, 49, 0.8); */
+
 .parallax {
-	background: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .9)), url('../images/rectangle56.png');
+	background: linear-gradient(rgba(0, 0, 0, .9),
+  rgba(0, 0, 0, .9)), url('../images/rectangle56.png');
 }
 .cards-body {
   padding: 15px 0;
@@ -283,6 +294,7 @@ footer p {
 .cards-body-news {
   padding: 15px 0;
   background: #F6F6F6;
+  border: 2px solid blue;
 }
 #blog {
   padding-top: 80px;
@@ -314,14 +326,14 @@ footer p {
    height: 48px;
    width: 48px;
 }
-.carousel-item {
+.carousel-item
    .col, .col-sm, .col-md {
       margin: 8px;
       height: 300px;
       background-size: cover;
       background-position: center center;
    }
-}
+
 /* nothing below this point is needed*/
 @import url('https://fonts.googleapis.com/css?family=Libre+Franklin:300,400,600,700,800,900&display=swap');
 
@@ -340,4 +352,20 @@ h1 {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-img-div {
+      background-size: cover;
+      height: 100vh;
+      z-index: 1;
+  }
+  .contact input, .contact textarea, form {
+    padding: 20px;
+    width: 60%;
+  }
+
+  .contact .bg_img {
+    padding: 5rem;
+  }
 }
